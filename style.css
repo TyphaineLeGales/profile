@@ -1,0 +1,125 @@
+h3{
+  font-family: Helvetica ;
+}
+
+p {
+  position:relative;
+
+  font-family: Helvetica;
+  font-weight: lighter;
+}
+
+h2 {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 70%;
+
+}
+
+h1{
+  font-family: Helvetica;
+  position: relative;
+  text-align: right;
+}
+h1::first-letter{
+  font-family: Bungee Shade, cursive;
+}
+
+li{
+text-decoration: none;
+list-style-type: none;
+}
+
+a:link {
+
+  font-family: Helvetica;
+    color: DarkBlue  ;
+    text-decoration: none;
+    text-align: right;
+    margin-right: 10pt;
+    margin-top: 10pt;
+    margin-bottom: : 10pt;
+    font-size: 15pt;
+    border-style: solid;
+    border-radius: 10pt;
+    padding:5pt;
+}
+a:visited {
+  color: DarkBlue  ;
+    text-decoration: none;
+    text-align: right;
+    margin-right: 10pt;
+    margin-top: 10pt;
+    margin-bottom: : 10pt;
+    font-size: 15pt;
+    border-style: solid;
+    border-radius: 10pt;
+    padding:5pt;
+
+  }
+
+  .twitter {
+     font-family: Helvetica;
+    color: blue  ;
+    text-decoration: none;
+    text-align: right;
+    margin-right: 10pt;
+    margin-top: 10pt;
+    margin-bottom: : 10pt;
+    font-size: 15pt;
+    /*border-style: solid;*/
+    border-radius: 10pt;
+    width: 100pt;
+    position: absolute;
+    padding:30pt;
+}
+
+  .github {
+    font-family: Helvetica;
+    color: DarkBlue   ;
+    text-decoration: none;
+    text-align: left;
+    margin-top: 10pt;
+    margin-right: 20pt;
+    margin-bottom: : 10pt;
+    font-size: 15pt;
+    /*border-style: solid;*/
+    border-radius: 10pt;
+    width: 100pt;
+    position:relative;
+    padding-left: 40%
+
+  }
+
+/*#header {
+text-align: right;
+position: absolute;
+margin : 10pt;
+padding-left: 70%;
+}*/
+
+.description  {
+text-align: right;
+}
+
+.profile{
+  position: absolute;
+    padding-left: 20%;
+    text-align: left;
+    width: 200px;
+
+}
+.profile p{
+  text-align :right;
+}
+.skills img {
+  border-radius: 15px;
+}
+
+.skills {
+  padding-left: 40%
+}
+
+ .skills img:hover {
+  filter:hue-rotate(30deg);
+  }
